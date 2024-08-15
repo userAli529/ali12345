@@ -1,0 +1,34 @@
+.brand {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left {
+    padding: 72px 100px 54px 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left h3 {
+    color: rgb(42, 37, 75);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.left p {
+    color: rgb(80, 89, 119);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left button {
+    width: 150px;
+    height: 56px;
+    border: none;
+    background: rgb(249, 249, 249);
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+}

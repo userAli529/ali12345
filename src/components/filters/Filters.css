@@ -1,0 +1,28 @@
+.filters {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.filters span {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.filters select {
+    text-align: right;
+    border: none;
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sorting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

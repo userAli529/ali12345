@@ -1,0 +1,80 @@
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 28px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav h1 {
+    color: rgb(34, 32, 46);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 44px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navList a {
+    text-decoration: none;
+    color: rgb(114, 110, 141);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.auth-modal {
+    width: 240px;
+    padding: 10px  0  20px 20px;
+    position: absolute;
+    margin-left: -180px;
+    background: rgb(42, 37, 75);
+}
+.close-btn {
+    height: 36px;
+    width: 80px;
+    border: none;
+    background: white;
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+}
+.auth-modal-content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.language-menu {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.language-menu button {
+    width: 30px;
+    height: 20px;
+    font-size: 10px;
+    background: #2a254b;
+    border: none;
+    color: rgb(255, 255, 255);
+}

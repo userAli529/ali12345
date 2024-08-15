@@ -1,0 +1,34 @@
+.auth form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth input {
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    padding-left: 16px;
+    color: white;
+}
+
+.auth input::placeholder{
+    color: white;
+}
+
+.create {
+    width: 170px;
+    height: 40px;
+    border: none;
+    background: white;
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.user-avatar {
+    margin: 20px 0 20px 70px;
+    background-color: grey;
+
+}

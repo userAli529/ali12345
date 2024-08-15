@@ -1,0 +1,98 @@
+.overlay {
+  max-width: 1440px;
+  height: 209px;
+  margin: 0 auto;
+  background-image: url("../../src/assets/banner.png ");
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-left: 80px;
+  padding-bottom: 26px;
+  margin-top: 20px;
+}
+
+.overlay h1 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-cards {
+  max-width: 1440px;
+  margin: 28px auto;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 80px;
+}
+
+.products-cards div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.products-cards img {
+  width: 305px;
+  height: 375px;
+}
+
+.products-cards h2 {
+  color: rgb(42, 37, 75);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.products-cards p {
+  color: rgb(42, 37, 75);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.prod-btn {
+  width: 170px;
+  height: 56px;
+  margin: 0 auto;
+  background: rgb(249, 249, 249);
+  border: none;
+  color: rgb(42, 37, 75);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}

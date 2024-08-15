@@ -1,0 +1,51 @@
+.sign-up {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 52px 74px 65px 93px;
+    background: rgb(249, 249, 249);
+}
+
+.sign-up-card {
+    max-width: 1273px;
+    height: 364px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 54px;
+}
+
+.sign-up-card h1 {
+    color: rgb(42, 37, 75);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sign-up-card p {
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sign-up-card input {
+    width: 354px;
+    height: 56px;
+    border: none;
+    background: rgb(249, 249, 249);
+    padding-left: 35px;
+}
+
+.sign-up-card button {
+    width: 118px;
+    height: 56px;
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}

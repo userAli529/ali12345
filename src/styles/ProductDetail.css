@@ -1,0 +1,56 @@
+.detail {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.detail img {
+    width: 721px;
+    height: 759px;
+    object-fit: cover;
+}
+
+.description {
+    width: 719px;
+    height: 759px;
+    padding: 91px 95px 91px 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.description h1 {
+    color: rgb(42, 37, 75);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.description h6 {
+    color: rgb(42, 37, 75);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.description p {
+    color: rgb(80, 89, 119);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.description button {
+    width: 143px;
+    height: 56px;
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dimensions {
+    display: flex;
+    gap: 80px;
+}
